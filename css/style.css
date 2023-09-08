@@ -1,0 +1,528 @@
+body {
+    width: 1500px;
+    max-width: 1500px;
+    min-width: 1000px;
+}
+
+/* 以下、header */
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.logo-img {
+    width: 15%;
+    margin: auto 0;
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+.header-nav {
+    margin: auto 20px auto auto;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-ul li {
+    padding: 10px;
+
+}
+
+.header-ul li{
+    list-style: none;
+}
+
+/* 以下、firstview */
+
+.firstview-background {
+    position: relative;
+}
+
+.firstview-background img {
+    margin: 0 0 0 auto;
+    display: block;
+    width: 65%;
+}
+
+.firstview-title {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 70px;
+    font-family: 'Indie Flower', cursive;
+    line-height: 1.5;
+    color: #B31769;
+}
+
+.growth {
+    color: #039faf;
+}
+
+.firstview-text-title {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #B31769;
+}
+
+.firstview-text {
+    position: absolute;
+    top: 61%;
+    left: 15%;
+    font-size: 17px;
+    line-height: 2;
+}
+
+/* 以下、news */
+
+.news-background {
+    margin-top: 50px;
+    margin-left: 320px;
+    padding-bottom: 50px;
+}
+
+.pink-small-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    color: #B31769;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.black-title {
+    font-size: 20px;
+    padding: 5px;
+    color: #7A7A7A;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.news-item {
+    display: inline-block;
+    color: #DBDBDB;
+    font-size: 17px;
+    width: 800px;
+}
+
+.news-item li:first-child {
+    border-top: 2px solid #C6C6C6;
+}
+
+.news-item li {
+    color: #DBDBDB;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li a{
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.news {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #B31769;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.news-empty {
+    height: 40px;
+    border-bottom: 2px solid #C6C6C6;
+    width: 800px;
+}
+
+/* 以下、About */
+
+.about-background {
+    background: #F5F5F5;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.about-img {
+    width: 30%;
+    float: right;
+    margin-top: 2%;
+    margin-right: 15%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.pink-small-title-center {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    color: #B31769;
+    padding: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.black-title-center {
+    font-size: 20px;
+    padding: 5px;
+    color: #7A7A7A;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about-text-one {
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #7A7A7A;
+    line-height: 2;
+}
+
+.about-text-two {
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #7A7A7A;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+/* 以下、service */
+
+.service-background {
+    margin-left: 220px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.grid__parent {
+    width: 1100px;
+    display: grid;
+    grid-template-rows: 210px 210px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+.grid__parent img {
+    width: 150px;
+}
+
+.grid__parent h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+}
+
+.grid__parent p {
+    font-size: 19px;
+    color: white;
+    font-weight: lighter;
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #B31767;
+    line-height: 1.5;
+}
+
+.box1 img {
+    margin-top: 60px;
+    margin-left: 37%;
+}
+
+.box1 h3 {
+    text-align: center;
+}
+
+.box1 p {
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #B35B8B;
+    padding-top: 20px;
+}
+
+.box2 img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box2 p {
+    line-height: 1.5;
+}
+
+.box3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #B2889E;
+    padding-top: 20px;
+}
+
+.box3 img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box3 p {
+    line-height: 1.5;
+}
+
+/* 以下、Blog */
+
+.blog-background {
+    background: #F5F5F5;
+    padding-bottom: 30px;
+}
+
+.pink-small-title-blog {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    color: #B31769;
+    padding: 5px;
+    font-weight: bolder;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.black-title-blog {
+    font-size: 20px;
+    padding: 5px;
+    color: #7A7A7A;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+
+.blog-flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.blog-card {
+    border-radius: 20px;
+    width: 23%;
+    height: 430px;
+    background: url(../img/blog__first.jpg) no-repeat center/cover;
+    background-size: 100%;
+    padding-top: -10px;
+    background-position: top;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.pink-box {
+    background: #B31767;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px 0 0 0;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.pink-box-item {
+    color: white;
+    padding-top: 10px;
+}
+
+.blog-card-content {
+    padding: 30px;
+    height: 150px;
+    background: white;
+    margin-top: 50%;
+    border-radius: 0 0 30px 30px;
+}
+
+.blog-card-content-text {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.blog-card-content-date {
+    color: #7A7A7A;
+    display: inline-block;
+    margin: 30px 30px 20px auto;
+}
+
+.blog-card-content-tag {
+    color: #7A7A7A;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.blog-button {
+    display: block;
+    background: white;
+    color: #B31767;
+    border: 2px solid #B31767;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+/* 以下、Company */
+
+.company-background {
+    padding-top: 70px;
+    margin-left: 20%;
+    font-size: 30px;
+    padding-bottom: 120px;
+}
+
+.company-table{
+    border-color: #DBDBDB;
+}
+
+.co-th {
+    background: #F5F5F5;
+    font-weight: normal;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-align: left;
+    width: 250px;
+}
+
+.co-td {
+    color: #7A7A7A;
+    padding: 20px 10px;
+    font-size: 20px;
+    width: 600px;
+}
+
+/* 以下、recruit-interview */
+
+.recruit-interview-background {
+    width: 1500px;
+    height: 330px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.recruit-item {
+    background: url(../img/recruit.png) no-repeat center/cover;
+    height: 330px;
+    width: 50%;
+    display: inline-block;
+}
+
+.recruit-item a {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 160px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.ask-more-button {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 160px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.interview-item {
+    background: url(../img/interview.png) no-repeat center/cover;
+    height: 330px;
+    width: 50%;
+    display: inline-block;
+    margin: 0 0 0 auto;
+}
+
+.interview-item a {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 160px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+/* 以下、ask-more */
+
+.ask-more-background {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.ask-more {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.ask-more-empty {
+    width: 50%;
+    height: 50px;
+    border-right: 2px solid #B31767;
+}
+
+.ask-more-button {
+    width: 300px;
+    height: 50px;
+    display: block;
+    background: linear-gradient(90deg, #FE1D90, #B41664);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 50px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: normal;
+    position: relative;
+}
+
+.ask-more-button::before {
+    content: "";
+    background: url(../img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 37%;
+    left: 30px;
+}
+
+/* 以下、footer */
+
+footer {
+    background: #F5F5F5;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color: #7A7A7A;
+
+}
